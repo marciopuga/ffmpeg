@@ -1,7 +1,5 @@
 # Minimal FFmpeg Docker image built on Alpine Linux
 
-The image is only **106.7 MB** versus ~350 MB.
-
 Current FFmpeg version: `5.1.2`
 
 ## FFmpeg Build Configuration
