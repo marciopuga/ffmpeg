@@ -40,9 +40,6 @@ ffmpeg version 5.1.2 Copyright (c) 2000-2022 the FFmpeg developers
 
 ## Usage
 
-```
-$ docker run marciopuga/ffmpeg -i http://files.coconut.co.s3.amazonaws.com/test.mp4 -f webm -c:v libvpx -c:a libvorbis - > test.webm
-```
 
 To encode a local file, you can mount the current path on the Docker host's filesystem as a volume inside the container like this:
 
